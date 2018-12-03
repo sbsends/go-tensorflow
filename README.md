@@ -12,10 +12,11 @@ program and running the training loop in Go.
 
 ## Usage
 
-`docker build . -t tiny_tf`
+$ `docker build . -t tiny_tf`
 
-Runs a single training step, and saves checkpoint. Could be multiple.
-`docker run tiny_tf`
+$ `docker run tiny_tf`
+
+Running this image will execute a single training step and save the result to a checkpoint.
 
 ## The model
 
